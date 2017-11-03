@@ -1,1 +1,5 @@
-# ML-week-4-assignment-submission
+Introduction
+The goal of your project is to predict the manner in which they did the exercise. This is the “classe” variable in the training set. You may use any of the other variables to predict with. You should create a report describing how you built your model, how you used cross validation, what you think the expected out of sample error is, and why you made the choices you did. You will also use your prediction model to predict 20 different test cases.
+
+Executive Summary
+This is a pure prediction task, with no need to create a simple parsimonious model and therefore perfectly suited to machine learning. I applied 2 classification models, a simpler decision tree and then also a random forest, which as expected gave the best prediction, achieving a accuracy of 99.61% (out of sample rate of 0.39%) and we can be 95% confident accuracy sits between 99.4% and 99.77%. Measurement of accuracy is based on taking a 75% / 25% split of the original testing data, training on the 75% and validating against the remaining 25%.
